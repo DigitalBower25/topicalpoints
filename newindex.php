@@ -20,7 +20,7 @@
 
                 <div class="flex items-center">
             
-                <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/faee90845e964141a3aea6995e773c137ad3ca6a757d3e5caf6b27d9a8c68cfe?placeholderIfAbsent=true&apiKey=adaf5d65c8c545829286d5c204fd87f8" alt="Onest logo" class="w-10 h-10 mr-2" />
+                <img loading="lazy" src="" alt="Onest logo" class="w-10 h-10 mr-2" />
                 <h1 class="text-lg md:text-xl font-bold hidden sm:block md:hidden">Onest</h1>
                 </div>
              <!-- Hamburger Icon for Mobile -->
