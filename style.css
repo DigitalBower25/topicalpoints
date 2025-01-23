@@ -1,0 +1,37 @@
+.header-bg{
+    background: rgb(159,115,123);
+    background: linear-gradient(90deg, rgba(159,115,123,1) 0%, rgba(182,121,129,1) 35%, rgba(159,115,123,1) 100%);
+}
+.banner-bg{
+    background-image: url(assets/banner-bg.png);
+    background-position: middle;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card-light-shadow{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}
+.bg-blck-g{
+    background-image: url(/assets/bg-blck-g.png);
+}
+
+.max-container {
+    max-width: 1920px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  body {
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+  }
+  .Premium-bg{
+    background-size: cover;
+    background-image: url(/assets/Premium.png)
+  }
+  iframe{
+    width: 98% !important;
+  }
+ .haAclf{
+    width: 100% !important;
+    display: block !important;
+  }
+  

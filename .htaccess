@@ -1,0 +1,31 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+   Order Deny,Allow 
+ 
+AllowOverride from All
+# Enable URL rewriting
+
+# Redirect "/home" to "index.php"
+RewriteRule ^$ index.php [L]
+RewriteRule ^dashboard$ dashboardnew.php [L]
+
+
+
+# Fallback to allow SEO-friendly URLs to load the correct article
+RewriteRule ^article/([^/]+)$ /singlePost.php?title=$1 [L]
+
+
+
+# Rule to hide .php extension
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^(.*)$ $1.php [L]
+
+
+
+
+# Custom 404 Error Document
+ErrorDocument 404 /404.php
+
+
+</IfModule>
+# END WordPres
