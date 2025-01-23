@@ -11,13 +11,13 @@ function sendMail($to, $subject, $body, $altBody = '') {
         $mail->isSMTP();
         $mail->Host       = ' smtp.hostinger.com';  // Set your SMTP server
         $mail->SMTPAuth   = true;
-        $mail->Username   = 'info@topicalpoints.com';  // SMTP username
-        $mail->Password   = 'DTest123!@';  // SMTP password
+        $mail->Username   = '';  // SMTP username
+        $mail->Password   = '';  // SMTP password
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;  // Encryption
         $mail->Port       = 587;
 
         //Recipients
-        $mail->setFrom('info@topicalpoints.com', 'topicalpoints.com');
+        $mail->setFrom('', '');
         $mail->addAddress($to);
 
         // Content
