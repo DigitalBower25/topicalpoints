@@ -14,7 +14,7 @@ function generateSlug($string) {
     return $slug;
 }
             // Set your secret key (from Stripe Dashboard)
-            \Stripe\Stripe::setApiKey('StripeKey'); // Replace with your own Secret Key
+            \Stripe\Stripe::setApiKey('sk_test_51Q4eUWLg6tc3IU2s1KIvKWpoun2MNomSJ6zCrEiMKQzcWx5CKcTeYr1i10rgtCi6Z9jolQQTLkDYX6SB6peRe9fR00GcXSFy4m'); // Replace with your own Secret Key
             
             if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             
