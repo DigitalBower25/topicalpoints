@@ -1,0 +1,55 @@
+body {
+    font-family: "Nunito", sans-serif;
+}
+
+.form-step {
+    display: none;
+}
+
+.form-step.active {
+    display: block;
+}
+
+.error-message {
+    display: none;
+}
+
+#payment-form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+#card-element {
+    background: #f8f8f8;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+
+#card-errors {
+    color: #fa755a;
+    margin-bottom: 10px;
+}
+
+#submit-button {
+    background-color: #6772e5;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#submit-button:hover {
+    background-color: #5469d4;
+}
+
+#stripe-icon {
+    margin-right: 10px;
+}
